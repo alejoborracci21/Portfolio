@@ -1,0 +1,23 @@
+.tecnologias {
+    display: flex;
+    justify-content: space-around; 
+    height: 100vh; 
+  }
+  
+  .container{
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .title {
+    margin-bottom: 10px; 
+  }
+  
+  .item {
+    margin: 5px 0;
+  }

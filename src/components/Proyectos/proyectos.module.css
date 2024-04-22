@@ -1,0 +1,71 @@
+.proyects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(15, 15, 15), black);
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0px 10px 10px 40px rgb(15, 15, 15);
+}
+
+.title{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    color: white;
+    margin-top: 5%;
+}
+.proyectcard{
+    width: 60%;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.523);
+    margin-bottom: 10vh;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.image{
+    width: 30vw;
+    height: 100%;
+}
+
+.proyectcard:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0px 0px 15px 10px rgba(116, 116, 116, 0.687);
+}
+.name{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+}
+
+.description{
+    width: 80%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.tech{
+    margin: 1%;
+    padding: 4px;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.657);
+    border-radius: 30%;
+    color: aliceblue;
+}

@@ -1,0 +1,53 @@
+.profile {
+    position: relative; /* Para que los elementos internos se posicionen relativos a este contenedor */
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+}
+  
+  .content {
+    position: relative; /* Para que los elementos internos se posicionen relativos a este contenedor */
+    z-index: 1; /* Para que los otros elementos estén sobre el video */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .imagen {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 100%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 10px black;
+  }
+  
+  .title {
+    width: 100%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .description {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    font-size: medium;
+    font-weight: bold;
+    width: 60%;
+    color: rgba(0, 0, 0, 0.838);
+  }
+  
