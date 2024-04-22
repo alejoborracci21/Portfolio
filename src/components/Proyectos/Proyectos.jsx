@@ -2,6 +2,9 @@ import React from "react";
 import style from './proyectos.module.css'
 import drivers from './Imagenes/drivers.png'
 import wearfashion from './Imagenes/wearfashion.png'
+
+
+
 const Proyectos = () => {
 
     return (
