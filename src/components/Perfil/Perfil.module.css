@@ -43,11 +43,11 @@
   }
   
   .description {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     text-align: start;
-    font-size: medium;
+    font-size: large;
     font-weight: bold;
     width: 60%;
-    color: rgba(0, 0, 0, 0.838);
+    color: rgb(0, 0, 0)
   }
   
