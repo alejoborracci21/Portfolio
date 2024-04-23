@@ -14,26 +14,41 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 const pages = ['Proyectos', 'Tecnologias', 'Contacto'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  function scroll(event) {
+    const elementId = event.currentTarget.id;
+
+    console.log(elementId)
+    if(elementId == 'Proyectos'){
+      window.scrollTo({
+        top: 650,
+        behavior: 'smooth' 
+      });
+    }else if(elementId == 'Tecnologias'){
+      window.scrollTo({
+        top: 1300,
+        behavior: 'smooth' 
+      });
+    }else if(elementId == 'Contacto'){
+      window.scrollTo({
+        top: 10000,
+        behavior: 'smooth' 
+      });
+    }
+  }
+
 
   return (
     <AppBar position="static" sx={{backgroundColor: 'black'}}>
@@ -87,7 +102,7 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem  id={page} key={page} onClick={scroll}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -115,8 +130,9 @@ function Navbar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
+                id={page}
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={scroll}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}

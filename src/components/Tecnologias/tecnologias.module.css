@@ -1,23 +1,43 @@
 .tecnologias {
-    display: flex;
-    justify-content: space-around; 
-    height: 100vh; 
-  }
-  
-  .container{
-    flex: 1; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    padding: 20px; 
-    background-color: rgb(0, 0, 0);
-    color: white;
-  }
-  
-  .title {
-    margin-bottom: 10px; 
-  }
-  
-  .item {
-    margin: 5px 0;
-  }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: black;
+  align-items: flex-start; /* Alinea los contenedores en la parte superior */
+}
+
+.container {
+  width: 30%; /* Ancho fijo para cada contenedor */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.705);
+  color: white;
+  border: 1px solid rgba(70, 241, 253, 0.733);
+  border-radius: 10px;
+  margin: 10px; /* Espacio entre contenedores */
+  margin-top: 8%;
+  box-shadow: 0px 0px 10px 10px rgba(70, 241, 253, 0.733);
+  overflow: auto; /* Permite el wrap de los elementos */
+}
+
+.title {
+  margin-top: 10px; /* Ajusta el margen superior */
+  margin-bottom: 10%; /* Ajusta el margen inferior */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 90px; /* Tamaño de los iconos */
+  color: rgb(0, 255, 213);
+}
