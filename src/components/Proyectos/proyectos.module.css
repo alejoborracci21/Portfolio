@@ -17,8 +17,8 @@
 
 .proyectcard {
     position: relative; /* Hace que el contenedor sea el contexto de posicionamiento para los botones */
-    width: 80%;
-    height: 25vh;
+    width: 90%;
+    height: 30vh;
     background-color: rgba(255, 255, 255, 0.523);
     margin-bottom: 10vh;
     display: flex;
@@ -75,7 +75,7 @@
 }
 
 .buttonrp {
-    width: 100px; /* Ancho del botón */
+    width: 80px; /* Ancho del botón */
     height: 40px; /* Alto del botón */
     padding: 3px;
     color: white;
@@ -100,5 +100,5 @@
 .buttonrp:hover {
     cursor: pointer;
     transform: scale(1.1);
-    background-color: rgba(0, 0, 255, 0.699);
+    background-color: rgba(0, 0, 0, 0.699);
 }
