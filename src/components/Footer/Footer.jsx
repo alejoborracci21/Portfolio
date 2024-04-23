@@ -21,7 +21,7 @@ function Footer() {
 
             </div>
             <div className={style.list}>
-                <h3>Contactame</h3>
+                <h3>Contacto</h3>
                 <br></br>
                 <ul className={style.redes}>
                     <li>
