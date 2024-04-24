@@ -12,7 +12,7 @@ const Perfil = () => {
     
     const intervalId = setInterval(() => {
       if (currentIndex <= originalText.length) {
-        setDescriptionText(originalText.substring(0, currentIndex));
+        setDescriptionText(originalText.substring(0, currentIndex) + '/');
         currentIndex++;
       } else {
         clearInterval(intervalId);

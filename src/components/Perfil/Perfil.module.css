@@ -43,11 +43,15 @@
   }
   
   .description {
-    font-family: monospace;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 7px black;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.641);
+    font-family:  'Times New Roman', Times, serif;
     text-align: start;
-    font-size: large;
-    font-weight: bold;
+    font-size: x-large;
     width: 60%;
-    color: rgb(0, 0, 0)
+    color: rgb(255, 255, 255)
   }
   
