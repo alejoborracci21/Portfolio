@@ -50,12 +50,10 @@ function Navbar() {
   }
 
   function downloadCV() {
-    // Replace 'path_to_your_cv_file' with the actual path to your CV file
     const cvPath = '../../../public/Currículum.docx';
-    // Triggering the download by creating a temporary link
     const link = document.createElement('a');
     link.href = cvPath;
-    link.download = 'AlejoBorracci.docx'; // You can set the desired filename here
+    link.download = 'AlejoBorracci.docx';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
