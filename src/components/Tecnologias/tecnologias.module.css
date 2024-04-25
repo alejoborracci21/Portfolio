@@ -1,4 +1,5 @@
 .tecnologias {
+  font-family: serif;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -112,6 +113,6 @@
 .itemnext{
   margin: 20px; /* Espacio entre los íconos */
   font-size: 60px; /* Tamaño de los iconos */
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
