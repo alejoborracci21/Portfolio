@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Proyectos', 'Tecnologias', 'Contacto'];
+const pages = ['Proyectos', 'Habilidades', 'Contacto'];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -36,7 +36,7 @@ function Navbar() {
         top: 650,
         behavior: 'smooth' 
       });
-    }else if(elementId == 'Tecnologias'){
+    }else if(elementId == 'Habilidades'){
       window.scrollTo({
         top: 1300,
         behavior: 'smooth' 
