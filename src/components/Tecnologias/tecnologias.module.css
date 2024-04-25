@@ -8,21 +8,31 @@
 }
 
 .container {
-  width: 30%; /* Ancho fijo para cada contenedor */
+  width: 30%;
   height: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Alinea los elementos en la parte superior */
+  justify-content: flex-start;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.705);
   color: white;
-  border: 1px solid rgba(70, 241, 253, 0.733);
-  border-radius: 10px;
-  margin: 10px; /* Espacio entre contenedores */
+  border-radius: 3px;
+  margin: 10px;
   margin-top: 8%;
-  box-shadow: 0px 0px 10px 10px rgba(70, 241, 253, 0.733);
-  overflow: auto; /* Permite el wrap de los elementos */
+  overflow: auto;
 }
+.container::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 6px; 
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* Color del track (la parte no deslizante) */
+}
+
 
 .title {
   margin-top: 10px; /* Ajusta el margen superior */
@@ -35,9 +45,73 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.item {
-  margin: 20px; /* Espacio entre los íconos */
-  font-size: 90px; /* Tamaño de los iconos */
-  color: rgb(0, 255, 213);
+.iconContainer li{
+  margin-bottom: 10%;
+  list-style-type: square;
 }
+
+.itemjs {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(238, 255, 0);
+}
+
+.itemcss {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 187, 255);
+}
+.itemhtml {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(255, 115, 0);
+}
+.itemrc {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 145, 255);
+}
+
+.itemrd {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(179, 0, 255);
+}
+
+.itemsq {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 64, 255);
+}
+.itemps {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 136, 255);
+}
+.itemex {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(255, 255, 255);
+}
+.itemts {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 145, 255);
+}
+.itemdk {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 157, 248);
+}
+.itemdb {
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 255, 42);
+}
+
+.itemnext{
+  margin: 20px; /* Espacio entre los íconos */
+  font-size: 60px; /* Tamaño de los iconos */
+  color: rgb(0, 0, 0);
+}
+
