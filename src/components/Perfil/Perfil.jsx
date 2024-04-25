@@ -5,6 +5,7 @@ import fondo from './Imagenes/fondo.jpg';
 
 const Perfil = () => {
 
+
   return (
     <>
       <div className={style.profile}>
