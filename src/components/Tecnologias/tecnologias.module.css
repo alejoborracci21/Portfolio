@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   height: 100vh;
   background-color: black;
-  align-items: flex-start; /* Alinea los contenedores en la parte superior */
+  align-items: flex-start;
+  
 }
 
 .container {

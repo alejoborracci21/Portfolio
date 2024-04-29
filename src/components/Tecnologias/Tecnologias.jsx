@@ -1,6 +1,6 @@
 import React from "react";
 import style from './tecnologias.module.css'
-import { SiNextdotjs, SiRedux,SiMongodb ,  SiDocker , SiTypescript , SiHtml5 , SiCss3 , SiJavascript , SiSequelize, SiPostgresql, SiExpress } from "react-icons/si";
+import { SiNextdotjs, SiRedux , SiHtml5 , SiCss3 , SiJavascript , SiSequelize, SiPostgresql, SiExpress, SiTypescript  } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
 const Tecnologias = () => {
@@ -8,7 +8,7 @@ const Tecnologias = () => {
       <>
         <div className={style.tecnologias}>
           <div className={style.container}>
-            <h3 className={style.title}>Habilidades técnicas</h3>
+            <h3 className={style.title}>Tech Skills</h3>
             <div className={style.iconContainer}>
               <SiJavascript className={style.itemjs} />
               <SiCss3 className={style.itemcss} />
@@ -19,11 +19,12 @@ const Tecnologias = () => {
               <SiPostgresql className={style.itemps} />
               <SiExpress className={style.itemex} />
               <SiNextdotjs className={style.itemnext} />
+              <SiTypescript  className={style.itemts}/>
             </div>
           </div>
 
           <div className={style.container}>
-            <h3 className={style.title}>Habilidades blandas</h3>
+            <h3 className={style.title}>Soft Skills</h3>
             <div className={style.iconContainer}>
               <ul>
                 <li>Escucha activa</li>
